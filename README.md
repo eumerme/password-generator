@@ -1,6 +1,6 @@
 # password-generator
 
-- an application that generates random passwords. Also, it's a poc to understand how docker works in fullstack applications
+- an application that generates random passwords. Also, it's a poc to understand how docker and github actions work in fullstack applications
 
 ## To test
 
