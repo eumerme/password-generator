@@ -35,8 +35,7 @@ jobs:
         run: docker compose down
 
       - name: Delete react docker volume
-        run: if docker volume ls --quiet --filter name=password-generator_react-volume |
-          grep -q .; then docker volume rm password-generator_react-volume; fi
+        run: if docker volume ls --quiet --filter name=password-generator_react-volume | grep -q .; then docker volume rm password-generator_react-volume; fi
 
       - name: Build docker images
         run: docker compose build
