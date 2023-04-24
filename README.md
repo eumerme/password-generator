@@ -8,8 +8,8 @@
 - probably the AWS license has expired, but you can download and run locally with or without docker
  
 ## How to run
-- clone this repository- 
-- create a `.env` file as in `.env.example`
+- clone this repository
+- create a `.env` file as in `.env.example`, both in the front-end folder and in the back-end folder
 
 ### Docker
 - run `docker compose up`
