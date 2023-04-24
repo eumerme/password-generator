@@ -8,7 +8,8 @@
 - probably the AWS license has expired, but you can download and run locally with or without docker
  
 ## How to run
-- clone this repository
+- clone this repository- 
+- create a `.env` file as in `.env.example`
 
 ### Docker
 - run `docker compose up`
@@ -19,6 +20,5 @@
 
 ### Locally
 - run `npm i`
-- create a `.env` file as in `.env.example`
 - run `npm run prisma:migrate:dev`
 - run `npm run dev` to start the local server
