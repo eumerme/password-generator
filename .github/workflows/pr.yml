@@ -18,4 +18,4 @@ jobs:
           fail_on_empty: true
 
       - name: Run tests backend
-        run: docker compose -f docker-compose-test.yml run node npm run test
+        run: docker compose -f docker-compose-test.yml run app_node npm run test
