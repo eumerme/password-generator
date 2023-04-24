@@ -1,7 +1,7 @@
 import supertest from "supertest";
 import app from "../src/app";
 
-const baseURL = "/api/generate-password";
+const baseURL = "/generate-password";
 
 describe("POST /generate-password", () => {
 	it("should generate a new password", async () => {
