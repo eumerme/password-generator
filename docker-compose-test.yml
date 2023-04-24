@@ -8,8 +8,8 @@ services:
     env_file:
       - back-end/.env.test
 
-  node:
-    container_name: node
+  app_node:
+    container_name: app_node
     build: ./back-end
     restart: always
     ports:
